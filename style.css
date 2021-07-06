@@ -1,0 +1,27 @@
+body{
+    font-family: 'Noto Serif', serif;
+}
+h1{
+    font-size: 50px;
+}
+.orange{
+    color: orange;
+}
+p{
+    font-size: 21px;
+    color: black;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.order-food{
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
