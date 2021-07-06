@@ -5,6 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
+.same{
+    padding-left: 20%;
+    padding-top: 20%;
+}
 .orange{
     color: orange;
 }
@@ -14,9 +18,11 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
+
 }
 .half-width-girl img{
     width: 60%;
@@ -29,10 +35,14 @@ section{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .big-word{
     font-size: 200%;
+}
+.big-wordtwo{
+   text-align: center;
+   font-size: 200%;
 }
 .contact-me{
     color: white;
@@ -40,9 +50,16 @@ section{
     background-image: linear-gradient(orange, tomato);
     text-decoration: none;
     padding: 10px 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .bkg-img{
     background-image: url(food-network-main/images/shapes/7.png);
     background-repeat: no-repeat;
 }
+.last{
+    text-align: center;
+}
+.container img{
+    width: 50%;
+}
+
