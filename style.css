@@ -16,10 +16,11 @@ p{
     font-size: 21px;
     color: black;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 80px;
 }
+
 .half-width{
     width: 50%;
 
@@ -28,7 +29,12 @@ section{
     width: 60%;
     padding-left: 20%;
 }
-
+.item img{
+    width: 25%;
+}
+.item{
+    padding-left: 10%;
+}
 .order-food{
     color: white;
     font-size: 150%;
@@ -43,6 +49,12 @@ section{
 .big-wordtwo{
    text-align: center;
    font-size: 200%;
+}
+.two{
+    text-align: center;
+    font-size: 21px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .contact-me{
     color: white;
@@ -62,4 +74,20 @@ section{
 .container img{
     width: 50%;
 }
+.link-up{
+    color: white;
+    font-size: 150%;
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.order{
+    width: 40%;
+    padding-left: 100px;
+    box-shadow: 20px 20px 40px;
 
+}
+.foot{
+    background-color:black;
+}
